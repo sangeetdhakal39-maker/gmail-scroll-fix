@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.profile-menu {
+  position: relative;
+  width: 200px;
+}
+
+#profileBtn {
+  padding: 10px;
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.account-list {
+  display: none;
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  z-index: 1000;
+}
+
+.account {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.account:hover {
+  background-color: #e0e0e0;
+}
